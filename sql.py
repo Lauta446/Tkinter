@@ -11,4 +11,8 @@ try:
     cursor = conexion.cursor()
     print("Conectado")
 except Error as error:
-    print(f"Hubo un error {error}") 
+    print(f"Hubo un error {error}")
+
+class endpoints():
+    def __init__(self):
+        pass
